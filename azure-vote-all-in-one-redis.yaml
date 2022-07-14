@@ -60,7 +60,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: azure-vote-front
-        image: nttcatabootcamp2022.azurecr.io/azure-vote-front:demo_v1
+        image: nttcatabootcamp2022.azurecr.io/azure-vote-front-catalina-munoz:v1
         ports:
         - containerPort: 80
         resources:
